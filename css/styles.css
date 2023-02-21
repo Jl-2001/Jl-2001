@@ -52,11 +52,13 @@ video {
     height: 6rem;
 }
 
-.logo, .nav-menu {
-    text-transform: uppercase
+.logo, 
+.nav-menu {
+    text-transform: uppercase;
 }
 
-.logo, .navbar-item{
+.logo, 
+.navbar-item{
     white-space: nowrap;
 }
 
@@ -88,10 +90,10 @@ video {
 
 .log a, 
 .nav-meu a {
-    display: block;
+    display:block;
     text-decoration: none;
     letter-spacing: 0.2rem;
-    padding: 0.8 rem;
+    padding: 0.7 rem;
     color:#000;
 }
 
