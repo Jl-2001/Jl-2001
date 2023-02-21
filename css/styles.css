@@ -339,14 +339,14 @@ border-bottom: 1px solid #000;
     }
     .nav-bar {
         line-height: 1.5rem;
-        padding: 0.4rem;
+        padding: 0 4rem;
     }
     .nav-menu{
         padding: 0 1rem;
     }
     .nav-item{
         flex: 1 1;
-        padding: 0 0.2rem;
+        padding: 0 .2rem;
     }
     .section-stop{
         scroll-margin-top: 9rem;
