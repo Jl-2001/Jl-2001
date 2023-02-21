@@ -301,7 +301,7 @@ border-bottom: 1px solid #000;
     scroll-margin-top: 6rem;
 }
 
-/* Add Meda Queries for Large Screens */
+/* Add Media Queries for Large Screens */
 
 @media (min-width: 600px) {
     .hero-heading{
