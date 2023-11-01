@@ -2,7 +2,7 @@ html {
     font-size: 100%;
     line-height: 1.5rem;
     box-sizing: border-box;
-    font-family: 'EB Garamond', serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -128,7 +128,4 @@ p {
     flex: 1 1;
     padding: 0 0.2rem;
  }
-
-
- 
 }
