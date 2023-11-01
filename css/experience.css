@@ -73,7 +73,7 @@ body {
 .logo a, 
 .nav-meu a {
     display:block;
-    text-decoration: underline;
+    text-decoration: none;
     letter-spacing: 0.2rem;
     padding: 0.7rem;
     color:white;
@@ -107,10 +107,12 @@ body {
 
 h1 {
     color: #fff;
+    font-weight: 100;
 }
 
 p {
     color: #fff;
+    font-weight: 100;
 }
 
 /* Add Media Queries for Large Screens */
@@ -129,6 +131,21 @@ p {
     padding: 0 0.2rem;
  }
 
+.description-image-box::after {
+   content:"";
+   background-color: rgba(0, 0, 0, 0.4);
+   height: 100vh;
+   width:100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+}
+.description-image {
+   width:100%;
+   height:100%;
+   object-fit: cover;
+   overflow: hidden;
+}
 
  
 }
