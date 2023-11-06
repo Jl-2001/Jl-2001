@@ -449,6 +449,8 @@ border-bottom: 1px solid #000;
     .top-nav {
        width: 95%; 
     }
+
+    /*small screen starts here*/
 }
 @media (max-width: 477px) {
     .top-nav-bar {    
@@ -466,12 +468,13 @@ border-bottom: 1px solid #000;
        margin: 0 0 15px 0; 
     }
     
+    /*start for small screens */
     .start-container {
         display: grid;
         grid-template-columns: 1fr;
         margin: 1rem auto 0 auto;
     }
-    
+   
     .start-text {
         margin: 0 auto;
         padding-left: 1rem;
@@ -479,12 +482,17 @@ border-bottom: 1px solid #000;
         color: #fff;
     }
     
+    
     .start-text h1 {
         font-size: 3.2rem;
         line-height: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
         color: #fff;
+    }
+
+    .start-text p {
+        font-size: large;
     }
     
     .start-image img {
