@@ -251,6 +251,7 @@ border-bottom: 1px solid #000;
     line-height: 2rem;
     padding-left: 3rem;
     padding-right: 7rem;
+    color: #fff;
 }
 
 .portfolio-gallery {
@@ -286,13 +287,13 @@ border-bottom: 1px solid #000;
 
 .start-text {
     margin: 0 auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: #fff;
 }
 
 .start-text h1 {
-    font-size: 4.5rem;
+    font-size: 3.2rem;
     line-height: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -447,5 +448,47 @@ border-bottom: 1px solid #000;
     }
     .top-nav {
        width: 95%; 
+    }
+}
+@media (max-width: 477px) {
+    .top-nav-bar {    
+        padding: 10px 30px;    
+    }    
+    .hero-box {
+        padding: 0 5px;
+        background-position: 55%;
+    }
+    .hero-text {
+        font-size: 15px;
+    }
+    .portfolio-container h1 {
+       width: 155px;
+       margin: 0 0 15px 0; 
+    }
+    
+    .start-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem auto 0 auto;
+    }
+    
+    .start-text {
+        margin: 0 auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: #fff;
+    }
+    
+    .start-text h1 {
+        font-size: 3.2rem;
+        line-height: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: #fff;
+    }
+    
+    .start-image img {
+        height: 65%;
+        object-fit: fill;
     }
 }
