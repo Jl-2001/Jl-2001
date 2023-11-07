@@ -126,6 +126,7 @@ border-bottom: 1px solid #000;
     background: none;
     position: fixed;
     top: 0;
+    background-color: #000;
 }
 
 /* modern browsers */
@@ -343,8 +344,8 @@ border-bottom: 1px solid #000;
 }
 
 .now-image img {
-    height: 90%;
-    object-fit: cover;
+    height: 65%;
+    object-fit: fill;
 }
 
 .now-social {
@@ -401,6 +402,10 @@ border-bottom: 1px solid #000;
         line-height: 1.5rem;
         padding: 0 4rem;
     }
+    .nav-bar h3{
+        color: #fff;
+    }
+
     .nav-menu{
         padding: 0 1rem;
     }
@@ -499,4 +504,9 @@ border-bottom: 1px solid #000;
         height: 65%;
         object-fit: fill;
     }
+
+    .nav-bar h3{
+        color: #fff;
+    }
+    
 }
